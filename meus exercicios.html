@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meus Exercicios</title>
+    <style>          
+         body{
+                background-color: rgb(255, 211, 146);
+            }
+        th {
+            background-color: darkcyan;
+            color: black;
+        }
+        tr {
+            background-color: lightblue;
+        }
+        table {
+            border-spacing: 0px;
+        }
+     
+    </style>
+     <script>
+        function helloWord(){
+            let minhaData = document.querySelector("#data").value
+            alert(minhaData)
+        }
+    </script>
+</head>
+<body>
+    <header>
+    <h1>Meus Exercicios</h1>
+    <nav><h3>
+        <a href="file:///C:/Users/alunonoite/Rafael%20-%20Introdu%C3%A7%C3%A3o%20ao%20Front%20End/Curso%20Senai/index.html">Inicio</a>
+        <a href="file:///C:/Users/alunonoite/Rafael%20-%20Introdu%C3%A7%C3%A3o%20ao%20Front%20End/Curso%20Senai/sobre.html">Sobre</a>
+        <a href="file:///C:/Users/alunonoite/Rafael%20-%20Introdu%C3%A7%C3%A3o%20ao%20Front%20End/Curso%20Senai/meus%20exercicios.html">Meus Exercicios</a>
+    </h3>
+</nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <input type="date" id="data">
+                <button onclick="helloWord()">Filtrar</button>
+            </fieldset>
+        </form>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th>Exercício</th>
+                <th>Linguagem</th>
+                <th>Dificuldade</th>
+                <th>Data</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr height="60px" align="center">
+                <td>Tabelas</td>
+                <td>HTML</td>
+                <td>Basico</td>
+                <td>14/09/2023</td>
+                <td><a href="file:///C:/Users/alunonoite/Rafael%20-%20Introdu%C3%A7%C3%A3o%20ao%20Front%20End/Curso%20Senai/Exerc%C3%ADcios/tabelas.html">Clique aqui</a></td>
+            </tr>
+            <tr height="60px" align="center">
+                <td>Formularios</td>
+                <td>HTML + JS</td>
+                <td>Basico</td>
+                <td>15/09/2023</td>
+                <td><a href="file:///C:/Users/alunonoite/Rafael%20-%20Introdu%C3%A7%C3%A3o%20ao%20Front%20End/Curso%20Senai/Exerc%C3%ADcios/formulario.html">Clique aqui</a></td>
+            </tr>
+            <tr height="60px" align="center">
+                <td>Estilo</td>
+                <td>CSS</td>
+                <td>Basico</td>
+                <td>18/09/2023</td>
+                <td><a href="file:///C:/Users/alunonoite/Rafael%20-%20Introdu%C3%A7%C3%A3o%20ao%20Front%20End/Curso%20Senai/Exerc%C3%ADcios/estilo.html">Clique aqui</a></td>
+
+        </tbody>
+        <tfoot>
+            <tr align="center">
+                <th colspan="5" >Total de Exercicios: 3</th>
+                </tr>
+        </tfoot>
+    </table>
+</main>
+<footer>
+    <hr>
+    <center>
+        <img src="https://64.media.tumblr.com/1bd16cc86de7d81df934ea8439ed16bf/tumblr_n3ye6c5MF41r4iqlro1_400.gif" height="100">
+        <p>Rafael Olegario - SENAI</p></center>
+</footer>
+</body>
+</html>

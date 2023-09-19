@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+        <style>
+            body{
+                background-color: rgb(255, 211, 146);
+            }
+        </style>
+        <script>
+            function helloWord(){
+                let meuNome = document.querySelector("#nome").value
+                alert(meuNome)
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Exemplos de Formularios</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Básicos</legend>
+                    <label for="">Nome</label>
+                    <input type="text">
+               <br>
+                    <label form="">Permitido?</label>
+                    <input type="checkbox">
+                
+                    <label for="">Teste</label>
+                    <input type="radio" name="radio">
+                    <input type="radio" name="radio">
+                <br>
+                    <label for="">Resumo</label>
+                    <textarea></textarea>
+                 <br>
+                    <label for="">Senha</label>
+                    <input type="password">
+                <br>
+                    <label for="">Envie seu Curriculo</label>
+                    <input type="file">
+                <br><br>
+            
+                    <input type="submit" value="Enviar">
+                    <input type="reset">
+                </fieldset>
+                <!--outro fieldset-->
+                <fieldset>
+                    <legend>HTML 5</legend>
+                    <label for="">Escolha  uma cor</label>
+                    <input type="color">
+                    <br><br>
+                    <label>Insira uma data</label>
+                    <input type="date"><br>
+                    <input type="week">
+                    <input type="time"><br>
+                    <label for="">Intervalo</label>
+                    <input type="range">
+                </fieldset>
+            </form>
+            <br>
+            <input type="text" id="nome">
+            <button onclick="helloWord()">Teste</button>
+        </main>
+        <footer>
+            <p align="right"><a href="file:///C:/Users/alunonoite/Rafael%20-%20Introdu%C3%A7%C3%A3o%20ao%20Front%20End/Curso%20Senai/meus%20exercicios.html">Retorno</a></p>
+        <center><img src="https://64.media.tumblr.com/1bd16cc86de7d81df934ea8439ed16bf/tumblr_n3ye6c5MF41r4iqlro1_400.gif" height="100">
+            <p>Rafael Olegario - SENAI</p></center>
+        </footer>
+    </body>
+</html>
+

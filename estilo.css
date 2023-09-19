@@ -1,0 +1,22 @@
+body{
+    background-color: darkcyan;
+}
+h1{
+    background-color: lightblue;
+    color: darkcyan;
+   text-align: center;
+    font-size: 100px;
+}
+p{
+    color: black;
+    background-color: lightblue;
+ 
+}
+.container{
+    text-align: center;
+
+}
+footer{
+    text-align: right;
+    background: lightblue;
+}
